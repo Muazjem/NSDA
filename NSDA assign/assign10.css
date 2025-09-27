@@ -1,0 +1,78 @@
+body{
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+form{
+    box-shadow: 3px 3px 40px rgba(0,0,0,0.2);
+    border-radius: 14px ;
+    width: 400px;
+    height: 490px;
+    background: rgb(255, 255, 255);
+    justify-self: center;
+    margin-top:100px ;
+    text-align: left;
+}
+h3{
+    height: 50px;
+    color: rgb(56, 57, 57);
+    font-size: 25px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.names{
+    display:flex;
+    margin-left: 20px;
+}
+.fname_div, .lname_div{
+    display: inline;
+    margin: 5px;
+    text-align: left;
+    color: rgb(68, 68, 68);
+}
+.pass{
+    display:flex;
+    margin-left: 20px;
+}
+.p1_div, .p2_div{
+    display: inline;
+    margin: 5px;
+    text-align: left;
+    color: rgb(68, 68, 68);
+}
+input{
+    height: 35px;
+    border: solid 1px  rgb(183, 180, 180);
+    border-radius: 4px;
+    width: 160px;
+    margin-top: 4px;
+}
+.msg_div{
+    text-align: left;
+    margin-left: 22px;
+    color: rgb(68, 68, 68);
+}
+.g_div {
+    justify-self: left;
+    margin-left: 15px;
+     padding: 5px;
+     text-align: left;
+     color: rgb(68, 68, 68);
+}
+select{
+     width: 358px;
+     height: 35px;
+      border-radius: 4px;
+}
+button{
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    background: rgb(125, 186, 34);
+    width: 60px;
+    height: 30px;
+}

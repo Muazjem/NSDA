@@ -1,0 +1,86 @@
+ body{
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+form{
+    box-shadow: 3px 3px 40px rgba(0,0,0,0.2);
+    border-radius: 14px ;
+    width: 400px;
+    height: 490px;
+    background: rgb(255, 255, 255);
+    justify-self: center;
+    margin-top:100px ;
+}
+h3{
+    background: rgb(61, 61, 247);
+    height: 50px;
+    color: aliceblue;
+    font-size: 25px;
+    border-radius: 14px 14px 0px 0px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.names{
+    display:flex;
+    margin-left: 10px;
+}
+.fname_div, .lname_div{
+    display: inline;
+    margin: 5px;
+    text-align: left;
+    color: rgb(68, 68, 68);
+}
+input{
+    height: 35px;
+    border: solid 1px  rgb(183, 180, 180);
+    border-radius: 4px;
+    width: 170px;
+    margin-top: 4px;
+}
+.email_div{
+    justify-self: left;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: left;
+    color: rgb(68, 68, 68);
+}
+.p_div {
+    justify-self: left;
+    margin-left: 10px;
+     padding: 5px;
+     text-align: left;
+     color: rgb(68, 68, 68);
+}
+.g_div {
+    justify-self: left;
+    margin-left: 10px;
+     padding: 5px;
+     text-align: left;
+     color: rgb(68, 68, 68);
+}
+.b_div {
+    justify-self: left;
+    margin-left: 10px;
+     padding: 5px;
+     text-align: left;
+    color: rgb(68, 68, 68);
+}
+button{
+    background:rgb(61, 61, 247);
+    width: 90%;
+    margin-top: 10px;
+    color: white;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+.below_div input{
+    width: 355px;
+}
+select{
+     width: 358px;
+     height: 35px;
+      border-radius: 4px;
+}

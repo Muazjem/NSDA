@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assign10.css">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <h3>Styled Form</h3>
+        <div class="names">
+           <div class="fname_div"> 
+                    <label for="fname" name="fname">First Name:</label><br>
+                    <input type="text" id="fname" placeholder="Enter your first name" required>
+             </div>
+                <div class="lname_div">
+                <label for="lname" name="lname">Last Name:</label><br>
+                <input type="text" id="lname" placeholder="Enter your last name" required>
+                </div>
+            </div>
+          <div class="pass">
+            <div class="p1_div">
+            <label for="fpass" name="fpass">Password:</label><br>
+            <input type="password" id="fpass" placeholder="Enter your password" required><br>
+            </div>
+            <div class="p2_div">
+            <label for="spass" name="spass">Confirm Password:</label><br>
+            <input type="password" id="spass" placeholder="Enter your password again" required><br>
+           </div>
+          </div> 
+          <div class="msg_div">
+            <label for="msg" name="msg">Message:</label><br>
+            <textarea id="msg" rows="6" cols="45" placeholder="Enter your message here"></textarea><br>
+           </div>
+           <div class="g_div">
+        <label for="gender" name="gender">Gender:</label><br>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
