@@ -1,0 +1,86 @@
+body{
+    background: url(Images/thinker_bg.jpg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    border: none; 
+    display: flex;
+    justify-content: space-between;   
+}
+nav h3{
+    color: aliceblue;
+    font-size: 25px;
+    margin:40px;
+    margin-top: 30px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+nav span{
+    color: rgb(255, 208, 0);
+}
+.leftnav{
+    display: flex;
+    align-items: center;
+    color: aliceblue;  
+    text-transform: uppercase;
+    justify-self: right;
+    margin-right: 50px;
+    font-size: 13px;
+}
+.leftnav a{
+    padding: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.leftnav a:hover{
+    color: rgb(255, 208, 0);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.center{
+    align-self: center;    
+    justify-items: center;
+    text-align: center;
+    margin-top: 10%;
+}
+.center h2{
+    color: aliceblue;
+}
+
+#t{
+    color: rgb(255, 204, 0);
+    font-weight: lighter;
+}
+#h{
+    color: rgb(0, 153, 255);
+     font-weight: lighter;
+}
+.center p{
+    color: aliceblue;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+.center span{
+    color: rgb(255, 204, 0);
+}
+.center #u{
+    color: rgb(0, 153, 255);
+}
+button{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+    padding: 11px 13px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(255, 204, 0);
+    color: rgb(51, 51, 51);
+    transition: 0.4s;
+}

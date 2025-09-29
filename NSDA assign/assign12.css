@@ -1,0 +1,102 @@
+body{
+    background: url(Images/ramd_bg.jpg);
+    background-size: cover;
+    filter: blur(0px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    border: none; 
+    display: flex;
+    justify-content: space-between;
+    position: sticky; 
+}
+nav h3{
+    color: aliceblue;
+    font-size: 20px;
+    margin:40px;
+    margin-top: 30px;
+    font-weight: lighter;  
+}
+.centernav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;  
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    height: 40px;
+    width: 45%;
+    border-radius: 15px;
+    margin-top: 35px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.leftnav{
+    display: flex;
+    align-items: center;
+    color: aliceblue;  
+    text-transform: uppercase;
+    justify-self: right;
+    margin-right: 50px;    
+}
+.leftnav button{
+    background-color: rgb(255, 243, 74);
+    border: none;
+    border-radius: 15px;
+    padding: 7px 9px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+}
+.leftnav button:hover{
+    background-color: rgb(248, 247, 244);
+    transition: 0.4s;
+}
+.fa{
+    margin-right: 3px;
+}
+
+.centernav a{
+    padding: 25px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.centernav a:hover{
+    color: rgb(255, 208, 0);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.center{
+    align-self: center;    
+    justify-items: center;
+    text-align: center;
+    margin-top: 2%;
+}
+.center{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.center h4{
+    font-weight: lighter;
+    font-size: 13px;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.count h1{
+    margin: 0 15px;
+    font-size: 50px;
+    font-weight: lighter;
+    line-height: 30px;
+    
+}
+.count span{
+    font-size: 13px;
+    font-weight: lighter;
+    color:aliceblue;
+}
+#sec{
+    color: rgb(255, 208, 0);
+}
